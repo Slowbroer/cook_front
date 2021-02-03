@@ -1,14 +1,15 @@
 {
+  "entryPagePath": "pages/menus/menu",
   "pages": [
     "pages/menus/menu",
     "pages/index/index",
-    "pages/logs/logs"
-    
+    "pages/logs/logs",
+    "pages/material/material"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "Cook",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",

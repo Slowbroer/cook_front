@@ -1,3 +1,6 @@
+var appInstance = getApp()
+console.log(appInstance.globalData)
+
 // pages/menu/menu.js
 Page({
 
