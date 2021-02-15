@@ -1,10 +1,12 @@
 {
-  "entryPagePath": "pages/menus/menu",
+  "entryPagePath": "pages/cook/cook",
   "pages": [
-    "pages/menus/menu",
+    "pages/menu/menu",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/material/material"
+    "pages/material/material",
+    "pages/cook/cook",
+    "pages/user/user"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,5 +15,8 @@
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "weui": true
+  }
 }

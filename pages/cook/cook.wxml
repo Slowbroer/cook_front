@@ -1,0 +1,21 @@
+<!--pages/cook/cook.wxml-->
+<view>
+    <mp-searchbar bindselectresult="selectResult" search="{{ search }}"></mp-searchbar>
+</view>
+
+<view class='list-masonry'>
+ <block wx:for="{{itemsList}}" wx:key="{{item.id}}">
+   <template is='itemsCard' data="{{data:item}}" />
+ </block>
+</view>
+
+
+<template name="itemsCard">
+ <view class="menu-item">
+     <image class="menu-image" src="{{ menu_image }}" mode="widthFix" >
+     </image>
+  <view class="menu-name">{{ menu_name }}</view>
+ </view>
+</template>
+
+<!-- <mp-tabbar style="position:fixed;bottom:0;width:100%;left:0;right:0;" list="{{list}}" bindchange="tabChange" current="0"></mp-tabbar> -->

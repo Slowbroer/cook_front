@@ -1,0 +1,23 @@
+{
+  "name": "cook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "miniprogram-render": "^2.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slowbroer/cook_front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Slowbroer/cook_front/issues"
+  },
+  "homepage": "https://github.com/Slowbroer/cook_front#readme"
+}

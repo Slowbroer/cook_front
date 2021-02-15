@@ -1,16 +1,23 @@
-var appInstance = getApp()
-console.log(appInstance.globalData)
-
-// pages/menu/menu.js
+// pages/user/user.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    name:"",
-    steps:[],
-    userInfo:{},
+    list : [
+      {
+          "text":"首页",
+          "iconPath":"",
+          "dot": false,
+          "page":""
+      },
+      {
+          "text":"我的",
+          "iconPath":"",
+          "dot": false
+      }
+    ]
   },
 
   /**
@@ -67,5 +74,19 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+
+  tabChange: function (e) {
+    console.log('tab change',e.detail.index)
+    switch (e.detail.index) {
+        case 0:
+            wx.reLaunch({
+              url: "../cook/cook",
+            })
+        case 1:
+            wx.reLaunch({
+              url: "../user/user",
+            })
+    }
+}
 })

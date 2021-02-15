@@ -1,0 +1,12 @@
+/* pages/cook/cook.wxss */
+
+.list-masonry {
+  column-count: 2;
+  column-gap: 20rpx;
+}
+
+
+.menu-item {
+  display: inline-block;
+  
+}
